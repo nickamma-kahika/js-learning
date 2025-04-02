@@ -4,13 +4,13 @@ import { Routes, createBrowserRouter, Route, RouterProvider, createRoutesFromEle
 import './index.css'
 import App from './App.jsx'
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
   createRoutesFromElements(
   <Route path='/' >
     <Route path='' element={<App />} />
   </Route>
   )
-])
+)
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
