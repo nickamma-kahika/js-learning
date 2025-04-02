@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+/* #2A7221 */
+/* #119822 */
+
+:root {
+    --bodycolor: #0A2239;
+    --navcolor: #152614;
+    --secnavcolor: #31CB00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {   background-color: #1E441E;   background-color: var(--bodycolor); }
+
+.nav {
+    width: 100vw;
+    height: 6vh;
+    background-color: var(--navcolor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.nav .logo {
+    font-size: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: var(--secnavcolor);
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    color: var(--secnavcolor);
+    padding: 0px 30px;
+    font-family: "Cousine", monospace;
+}
+
+.nav .login {
+    height: 32px;
+    width: 32px;
+    /* border: 1px solid var(--secnavcolor);  */
+    border-radius: 5px;
+}
+
+.nav .login img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
